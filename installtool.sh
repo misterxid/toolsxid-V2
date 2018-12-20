@@ -49,9 +49,9 @@ exit
 
 echo ""
 echo ""
-echo $red.     " ################################## " 
-echo $white     " #  AYO S I L A H K A N  D I P I L I H # " 
-echo $white    " ################################## " 
+echo $red.     "••••••••••••••••••••••••••••••••••• " 
+echo $white     " # SILAHKAN DI PILIH MAS MAS ^_^# " 
+echo $white    "••••••••••••••••••••••••••••••••••• " 
 echo ""
 echo  $green "1. Install Ubuntu" 
 echo "========================================" | lolcat
@@ -64,6 +64,8 @@ echo "========================================" | lolcat
 echo  $cyan  "5. Install D-TECT" 
 echo "========================================" | lolcat
 echo  $blue  "6. Install Tuan Badut" 
+echo "========================================" | lolcat
+echo "$blue. "7. install MBF hack Fb"
 echo "========================================" | lolcat
 echo  $red  "18+. Keluar" 
 echo "========================================" | lolcat
@@ -172,6 +174,20 @@ clear
 chmod +x Tuanb4dut.sh
 clear
 sh Tuanb4dut.sh
+;;
+7)clear
+toilet -f standard " MR_XiD " -F gay
+apt update && apt upgrade
+clear 
+apt install python2
+clear
+apt install git
+clear
+git clone https://github.com/safri1234/fbhackbu
+clear
+cd fbhack
+clear
+python2 mbf.py
 ;;
 99) echo "[D35TROY SQUAD]" | lolcat
 echo "ORANG NEWBYE WAJARIN" | lolcat
